@@ -49,9 +49,10 @@ $autoload['packages'] = array(APPPATH.'third_party');
 | Prototype:
 |
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
+ * $autoload['libraries'] = array('session', 'ion_auth', 'database');
 */
 
-$autoload['libraries'] = array('session', 'ion_auth', 'database');
+$autoload['libraries'] = array();
 
 
 /*
